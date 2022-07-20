@@ -18,3 +18,14 @@ function changes2(details){
 }
 let hmm = document.getElementById(`wow`);
 hmm.addEventListener(`click`,changes2)
+
+
+function changes3(details){
+    Cookies.set(`button_clicked`, `no`);
+
+}
+
+let woof = document.getElementById(`gone`);
+    woof.addEventListener(`click`,changes3);
+
+
